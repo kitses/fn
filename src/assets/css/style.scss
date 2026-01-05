@@ -111,10 +111,7 @@ footer {
       content: "";
       width: 0.89em;
       height: 0.89em;
-      background-image: url("/assets/img/Copyleft.svg");
-      background-size: contain;
-      background-repeat: no-repeat;
-      background-position: center;
+      background: url("/assets/img/Copyleft.svg") center / contain no-repeat;
       filter: drop-shadow($shadow);
     }
   }

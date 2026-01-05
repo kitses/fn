@@ -1,0 +1,129 @@
+@use "sass:color";
+@use "sass:math";
+
+@import url(/assets/woff/ptsans/style.css);
+
+$bg: rgb(232 232 232);
+$c1: rgb(34, 34, 34);
+$c2: rgb(128, 128, 128);
+$border: $c1 1px solid;
+$shadow: rgba(255, 255, 255, 0.4) 0 1px 0;
+$c1-light: color.scale($c1, $lightness: 60%);
+$c1-faint: rgba($c1, 0.07);
+
+body {
+  background: $bg;
+  color: $c1;
+  font:
+    18px "PT Sans",
+    "Fira Sans",
+    "Helvetica Neue",
+    Arial,
+    system-ui,
+    sans-serif;
+  text-shadow: $shadow;
+}
+
+h1 {
+  margin: 0;
+  padding: 0.25em 0;
+  font-stretch: condensed;
+}
+
+main {
+  max-width: 40em;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+a {
+  color: #ac5682;
+}
+
+a:hover {
+  color: #d27b9b;
+}
+
+a[href*="//"]:after {
+  font-weight: 300;
+  font-size: 0.85em;
+  content: "\2197";
+}
+
+p {
+  line-height: 1.35;
+  margin: 0;
+  padding: 0.25em 0;
+}
+
+hr,
+img {
+  filter: drop-shadow($shadow);
+}
+
+hr {
+  background-color: rgb(174, 174, 174);
+  border: none;
+  height: 1px;
+}
+
+ul {
+  list-style-type: square;
+}
+
+// bit fugly
+footer {
+  display: flex;
+  color: $c2;
+  border: 1px solid transparent;
+  border-bottom: 0;
+  border-image: linear-gradient($c1-light, transparent) 1;
+  background: linear-gradient($c1-faint, transparent 90%);
+  padding: 0.25em 0.5em;
+  margin-top: 1em;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+
+    &:hover {
+      color: inherit;
+      opacity: 0.75;
+      text-decoration: underline;
+    }
+  }
+
+  span {
+    display: flex;
+    gap: 0.5em;
+    align-items: center;
+    white-space: nowrap;
+  }
+
+  img {
+    width: auto;
+    height: 16px;
+  }
+}
+
+@media screen and (-webkit-video-playable-inline) {
+  html {
+    background: white;
+  }
+
+  body {
+    display: none !important;
+  }
+
+  html::before {
+    content: "Don't use WebKit near me.";
+    display: block;
+    padding: 20px;
+    font-family: sans-serif;
+    color: black;
+  }
+}

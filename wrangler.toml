@@ -1,0 +1,7 @@
+name = "fn"
+compatibility_date = "1970-01-01" # shut up
+preview_urls = false
+
+[assets]
+directory = "./_site/"
+not_found_handling = "404-page"

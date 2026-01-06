@@ -84,7 +84,6 @@ ul {
 // bit fugly
 footer {
   display: flex;
-  color: $c2;
   border: 1px solid transparent;
   border-bottom: 0;
   border-image: linear-gradient($c1-light, transparent) 1;
@@ -93,7 +92,7 @@ footer {
   margin-top: 0.75em;
 
   a {
-    color: inherit;
+    color: $c2;
     text-decoration: none;
 
     &:hover {

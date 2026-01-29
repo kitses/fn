@@ -89,6 +89,7 @@ footer {
   border-bottom: 0;
   border-image: linear-gradient($c1-light, transparent) 1;
   background: linear-gradient($c1-faint, transparent 90%);
+  filter: drop-shadow($shadow);
   padding: 0.25em 0.5em;
   margin-top: 0.75em;
 

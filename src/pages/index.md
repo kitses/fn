@@ -25,4 +25,4 @@ writing:
 
 ---
 
-[upstream](https://llia.nekoweb.org/system/).
+[upstream](https://llia.cc/system/).

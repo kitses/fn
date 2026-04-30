@@ -1,11 +1,13 @@
 ---
-layout: layouts/base.njk
+layout: ../layouts/BaseLayout.astro
 title: license
 ---
 
+import { currentYear } from "../lib/currentYear";
+
 MIT License
 
-Copyright (c) {% currentYear %} Laurelcorp/2311 <nekotwo@disroot.org>
+Copyright (c) {currentYear()} Laurelcorp/2311 nekotwo@disroot.org
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the " Software"), to deal in

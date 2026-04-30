@@ -1,5 +1,5 @@
 ---
-layout: layouts/base.njk
+layout: ../layouts/BaseLayout.astro
 ---
 
 # flora novak.

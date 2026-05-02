@@ -12,7 +12,6 @@ PTO.
 music:
 
 - [pretty song not for alyssa +epsilon](https://soundcloud.com/x5t/negativ)
-- [noelleallowed - Sun burnt vanilla milkshake (llia:epsilon flip)](https://soundcloud.com/x5t/sunburnt)
 
 code:
 

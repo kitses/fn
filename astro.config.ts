@@ -1,4 +1,5 @@
 import { defineConfig } from "astro/config";
+import { unified } from "@astrojs/markdown-remark";
 import rehypeExternalLinks from "rehype-external-links";
 import mdx from "@astrojs/mdx";
 import compress from "astro-compress";
@@ -17,10 +18,12 @@ export default defineConfig({
 		}),
 	],
 	markdown: {
-		smartypants: false,
 		syntaxHighlight: false,
-		rehypePlugins: [
-			[rehypeExternalLinks, { rel: ["noopener"], target: false }],
-		],
+		processor: unified({
+			smartypants: false,
+			rehypePlugins: [
+				[rehypeExternalLinks, { rel: ["noopener"], target: false }],
+			],
+		}),
 	},
 });

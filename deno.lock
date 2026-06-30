@@ -1,6 +1,7 @@
 {
   "version": "5",
   "specifiers": {
+    "npm:@astrojs/markdown-remark@^7.2.0": "7.2.0",
     "npm:@astrojs/mdx@^5.0.6": "5.0.6_astro@6.4.8__lightningcss@1.32.0__sass-embedded@1.100.0__terser@5.46.1_sass-embedded@1.100.0",
     "npm:astro-compress@^2.4.1": "2.4.1_sass-embedded@1.100.0",
     "npm:astro@^6.4.8": "6.4.8_lightningcss@1.32.0_sass-embedded@1.100.0_terser@5.46.1",
@@ -3200,6 +3201,7 @@
   "workspace": {
     "packageJson": {
       "dependencies": [
+        "npm:@astrojs/markdown-remark@^7.2.0",
         "npm:@astrojs/mdx@^5.0.6",
         "npm:astro-compress@^2.4.1",
         "npm:astro@^6.4.8",

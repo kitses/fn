@@ -12,10 +12,10 @@
 		"astro": "astro"
 	},
 	"dependencies": {
-		"@astrojs/mdx": "^5.0.4",
-		"astro": "^6.2.1",
+		"@astrojs/mdx": "^5.0.6",
+		"astro": "^6.4.8",
 		"astro-compress": "^2.4.1",
 		"rehype-external-links": "^3.0.0",
-		"sass-embedded": "^1.99.0"
+		"sass-embedded": "^1.100.0"
 	}
 }

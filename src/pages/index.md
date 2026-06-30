@@ -21,7 +21,7 @@ code:
 
 writing:
 
-- ["persimmon goes rotten", 2025-11-14](https://aspen.llia.workers.dev/posts/2025-11-14/)
+- ["persimmon goes rotten", 2025-11-14](https://llia.cc/posts/2025-11-14/)
 
 ---
 

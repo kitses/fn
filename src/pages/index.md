@@ -17,8 +17,8 @@ music:
 
 code:
 
-- [helios](https://git.gay/kit/helios)
-- [site](https://git.gay/kit/fn)
+- [helios](https://tangled.org/llia.cc/helios)
+- [site](https://tangled.org/llia.cc/fn)
 
 writing:
 

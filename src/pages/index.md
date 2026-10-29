@@ -17,8 +17,9 @@ music:
 
 code:
 
-- [helios](https://tangled.org/llia.cc/helios)
-- [site](https://tangled.org/llia.cc/fn)
+- [laurel](https://github.com/kitses/laurel)
+- [site](https://github.com/kitses/fn)
+- helios (removed)
 
 writing:
 
